@@ -113,6 +113,17 @@ h1 {
   display: block;
 }
 
+audio {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: .1;
+}
+
+audio:hover {
+  opacity: .9;
+}
+
 @font-face {
     font-family: Monument;
     src: url("../../font/MonumentExtended-Regular.otf") format("opentype");
